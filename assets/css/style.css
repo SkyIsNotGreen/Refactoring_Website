@@ -1,4 +1,4 @@
-* {
+* { /* reset */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -50,7 +50,8 @@ p {
     font-size: 16px;
 }
 
-.hero {
+
+.hero { /* banner image */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,12 +60,12 @@ p {
     background-position: center;
 }
 
-.float-left {
+.float-left { /* this makes content stay left or vice versa for float right */
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { 
     float: right;
     margin-left: 25px;
 }
@@ -75,7 +76,7 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+.benefits { /* styling for boxed content on the right side of the page */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -134,7 +135,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+.search-engine-optimization { /* styling for the main content on the page */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
